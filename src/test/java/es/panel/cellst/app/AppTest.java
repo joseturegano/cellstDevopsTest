@@ -34,9 +34,9 @@ public class AppTest
     {
         App.main(null);
         try {
-            assertEquals("Buscandole las cuatro patas al gat0" + System.getProperty("line.separator"), outContent.toString());
+            assertEquals("Buscandole las cuatro patas al gato" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
-            fail("\"message\" is not \"Buscandole las cuatro patas al gat@\"");
+            fail("\"message\" is not \"Buscandole las cuatro patas al gato\"");
         }
     }
 
